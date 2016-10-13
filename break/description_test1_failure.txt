@@ -1,0 +1,2 @@
+The test case for Anomalies submission (id 840), they use message length that should not exceed 65536 in all their buffers. Increasing this causes a failure. 
+By using a json file larger than that size causes a failure. 
